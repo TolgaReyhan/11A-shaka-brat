@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZadachaZaPregovor", "ZadachaZaPregovor.csproj", "{EBA6BC5B-6EA3-4914-95F5-084DF1237EF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefiniraneNaPoleta-Svoystva", "..\DefiniraneNaPoleta-Svoystva\DefiniraneNaPoleta-Svoystva.csproj", "{C2C5D15B-C065-499D-A2B5-DCAC89C313D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefiniraneNaPoleta-Svoystva", "..\DefiniraneNaPoleta-Svoystva\DefiniraneNaPoleta-Svoystva.csproj", "{C2C5D15B-C065-499D-A2B5-DCAC89C313D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desk", "..\Desk\Desk.csproj", "{20D4AA5D-32EF-4AA0-A36A-E4E2EF58A351}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C2C5D15B-C065-499D-A2B5-DCAC89C313D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2C5D15B-C065-499D-A2B5-DCAC89C313D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2C5D15B-C065-499D-A2B5-DCAC89C313D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20D4AA5D-32EF-4AA0-A36A-E4E2EF58A351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D4AA5D-32EF-4AA0-A36A-E4E2EF58A351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D4AA5D-32EF-4AA0-A36A-E4E2EF58A351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D4AA5D-32EF-4AA0-A36A-E4E2EF58A351}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

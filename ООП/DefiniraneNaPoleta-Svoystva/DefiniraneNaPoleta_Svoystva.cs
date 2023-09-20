@@ -1,6 +1,6 @@
 ﻿namespace DefiniraneNaPoleta_Svoystva
 {
-    internal class Program
+    internal class DefiniraneNaPoleta_Svoystva
     {
         static void Main(string[] args)
         {
