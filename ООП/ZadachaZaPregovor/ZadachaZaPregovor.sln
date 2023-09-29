@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentWithBackpack", "..\S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NameSpacesDemo", "..\NameSpacesDemo\NameSpacesDemo.csproj", "{8DF2CAAD-3EDF-4558-8EFF-608C41546432}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticAndNonStaticDemo", "..\StaticAndNonStaticDemo\StaticAndNonStaticDemo.csproj", "{DCB6BB94-C885-438D-B92D-F15CB402A731}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticAndNonStaticDemo", "..\StaticAndNonStaticDemo\StaticAndNonStaticDemo.csproj", "{DCB6BB94-C885-438D-B92D-F15CB402A731}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsDemo", "..\MethodsDemo\MethodsDemo.csproj", "{70E1D99C-CE13-4784-9FC4-86B9A626FE36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{DCB6BB94-C885-438D-B92D-F15CB402A731}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCB6BB94-C885-438D-B92D-F15CB402A731}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCB6BB94-C885-438D-B92D-F15CB402A731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70E1D99C-CE13-4784-9FC4-86B9A626FE36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E1D99C-CE13-4784-9FC4-86B9A626FE36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E1D99C-CE13-4784-9FC4-86B9A626FE36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E1D99C-CE13-4784-9FC4-86B9A626FE36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
