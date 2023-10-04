@@ -63,13 +63,13 @@ namespace ContstructorsDemo
                 ExpirationDate = DateTime.ParseExact("00/00/0000", "dd/MM/yyyy", CultureInfo.InvariantCulture)
             },
                 new Product("Napitka Prime", "Piesh ot nashata napitka i za 5 sekundi vlizash v nay dobrata si forma",5.99m,0.500d,ProductType.BeverageNonAlcohol,"28/09/2025",manufactures[4]),
+                new Product("Napitka Prime", "Piesh ot  nashata napitka i za 5 sekundi vlizash v nay dobrata si forma",5.99m,0.500d,ProductType.BeverageNonAlcohol,"28/09/2025",manufactures[4]),
                 new Product("Napitka Prime", "Piesh ot nashata napitka i za 5 sekundi vlizash v nay dobrata si forma",5.99m,0.500d,ProductType.BeverageNonAlcohol,"28/09/2025",manufactures[4]),
                 new Product("Napitka Prime", "Piesh ot nashata napitka i za 5 sekundi vlizash v nay dobrata si forma",5.99m,0.500d,ProductType.BeverageNonAlcohol,"28/09/2025",manufactures[4]),
                 new Product("Napitka Prime", "Piesh ot nashata napitka i za 5 sekundi vlizash v nay dobrata si forma",5.99m,0.500d,ProductType.BeverageNonAlcohol,"28/09/2025",manufactures[4]),
-                new Product("Napitka Prime", "Piesh ot nashata napitka i za 5 sekundi vlizash v nay dobrata si forma",5.99m,0.500d,ProductType.BeverageNonAlcohol,"28/09/2025",manufactures[4]),
-
-        };
-
+            };
+            var animal1 = new Animal() { Name = "Sharo" };
+            animal1.ProductUsed = new List<Product>();
         }
     }
     public class Product
@@ -133,5 +133,26 @@ namespace ContstructorsDemo
             this.telephone = telephone;
             Email = email;
         }
+    }
+    public class Animal
+    {
+        public Animal() 
+        {
+            Console.WriteLine("A");
+            ProductUsed = new List<Product>();
+        }
+        public Animal(string name):this()
+        {
+            Console.WriteLine("B");
+            Name = name;
+        }
+        public Animal(string name, int age):this(name)
+        {
+            Console.WriteLine("C");
+            Age = age;
+        }
+        public List<Product> ProductUsed { get; set; }
+        public string Name { get; set; }
+        public int Age { get; set; }
     }
 }

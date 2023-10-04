@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodsDemo", "..\MethodsDe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enumerations", "..\Enumerations\Enumerations.csproj", "{DF575805-76B0-4309-B36E-CDC586F3C28C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContstructorsDemo", "..\ContstructorsDemo\ContstructorsDemo.csproj", "{1BD10B96-535C-467E-B26A-A8AED161AADE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContstructorsDemo", "..\ContstructorsDemo\ContstructorsDemo.csproj", "{1BD10B96-535C-467E-B26A-A8AED161AADE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandyShop", "..\CandyShop\CandyShop.csproj", "{F676BCB1-23ED-476E-B019-C620546ED88F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{1BD10B96-535C-467E-B26A-A8AED161AADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BD10B96-535C-467E-B26A-A8AED161AADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BD10B96-535C-467E-B26A-A8AED161AADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F676BCB1-23ED-476E-B019-C620546ED88F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F676BCB1-23ED-476E-B019-C620546ED88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F676BCB1-23ED-476E-B019-C620546ED88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F676BCB1-23ED-476E-B019-C620546ED88F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
