@@ -1,6 +1,6 @@
 ﻿namespace StackAndHeap
 {
-    internal class Program
+    internal class StackAndHeap
     {
         static void Main(string[] args)
         {

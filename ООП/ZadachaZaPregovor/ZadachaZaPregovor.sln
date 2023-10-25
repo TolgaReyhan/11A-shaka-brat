@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticConstructorDestructor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackAndHeap", "..\StackAndHeap\StackAndHeap.csproj", "{7A4F2098-CB85-4FF6-83F9-A44E7367395E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleTownCountries", "..\PeopleTownCountries\PeopleTownCountries.csproj", "{95E5BCC9-C835-434A-95F7-AE162AD44BB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleTownCountries", "..\PeopleTownCountries\PeopleTownCountries.csproj", "{95E5BCC9-C835-434A-95F7-AE162AD44BB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopBDRelationsMirror", "..\ShopBDRelationsMirror\ShopBDRelationsMirror.csproj", "{E7FE1347-CCF2-42DC-B65A-7FC9D89C234E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{95E5BCC9-C835-434A-95F7-AE162AD44BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95E5BCC9-C835-434A-95F7-AE162AD44BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95E5BCC9-C835-434A-95F7-AE162AD44BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7FE1347-CCF2-42DC-B65A-7FC9D89C234E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7FE1347-CCF2-42DC-B65A-7FC9D89C234E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7FE1347-CCF2-42DC-B65A-7FC9D89C234E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7FE1347-CCF2-42DC-B65A-7FC9D89C234E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
