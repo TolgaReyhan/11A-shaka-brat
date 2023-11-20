@@ -131,3 +131,6 @@ div.info>ul>li>div>img
     height: auto;
     margin-right: 1em;
 }
+.fa-poo-storm:hover{
+    color: green important;
+}
