@@ -2,12 +2,12 @@
 {
     public class Chair : Furniture
     {
-        public Chair(double weight, decimal price, string name, Material material, string manufacturer) : base(weight, price, name, material, manufacturer)
+        public Chair(decimal price, string name, Material material, string manufacturer) : base(price, name, material, manufacturer)
         {
 
         }
-        public Chair(double weight, decimal price, string name, Material material, string manufacturer, double height, bool canRotate, bool hasSpring, bool hasHandResters)
-            : this(weight, price, name, material, manufacturer)
+        public Chair(decimal price, string name, Material material, string manufacturer, double height, bool canRotate, bool hasSpring, bool hasHandResters)
+            : this(price, name, material, manufacturer)
         {
             Height = height;
             CanRotate = canRotate;

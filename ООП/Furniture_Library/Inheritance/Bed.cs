@@ -4,11 +4,12 @@ namespace Task.Inheritance
 {
     public class Bed : Furniture
     {
-        public Bed(double weight, decimal price, string name, Material material, string manufacturer) : base(weight,price,name,material,manufacturer)
+        public Bed(decimal price, string name, Material material, string manufacturer) : base(price,name,material,manufacturer)
         {
 
         }
-        public Bed(double weight, decimal price, string name, Material material, string manufacturer, double height, double width, int userCount, BedSpecs bedSpecs) : this(weight,price,name,material,manufacturer)
+        public Bed(decimal price, string name, Material material, string manufacturer, double height, double width, int userCount, BedSpecs bedSpecs) 
+            : this(price,name,material,manufacturer)
         {
             Height = height;
             Width = width;
